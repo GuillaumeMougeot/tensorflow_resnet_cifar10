@@ -28,7 +28,7 @@ During training, this implementation will store regularly:
 * images of the model predictions on a batch of test samples
 
 ## Performance
-The performances below were obtained by doing only one run on all the model and taking the best test error during traning. With model selection, the test errors should undoubtedly improved. 
+The performances below were obtained by doing only one run on all the model and taking the best test error during traning. With model selection, the test errors should undoubtedly improve. 
 
 | Name      | # layers | # params| Test err(paper) | Test err(this impl.)|
 |-----------|---------:|--------:|:---------------:|:---------------------:|
