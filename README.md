@@ -1,6 +1,6 @@
 # tensorflow_resnet_cifar10
 
-This repositories contains an implementation of the [original ResNet paper]((https://arxiv.org/abs/1512.03385) with tensorflow 2 and keras on the CIFAR10 dataset. 
+This repositories contains an implementation of the [original ResNet paper](https://arxiv.org/abs/1512.03385) with tensorflow 2 and keras on the CIFAR10 dataset. 
 
 ## Requirements
 Before running the training be sure the following python libraries are installed:
@@ -12,9 +12,13 @@ Before running the training be sure the following python libraries are installed
 ## Run
 Before training, the CIFAR10 dataset needs to be converted into tfrecord files. To do so, please use 
 the following command by replacing the `path/to/cifar10` with the appropriate location:
-    ```python prepare_data.py --data_path='/path/to/cifar10'```
+```
+python prepare_data.py --data_path='/path/to/cifar10'
+```
 The training of all the resnets can be run with:
-    ```python train.py```
+```
+python train.py
+```
 If you want to train only a particular ResNet or change the training hyperparameters, please edit the global variables defined in the beginning of train.py.
 
 ## Logs
@@ -24,7 +28,7 @@ During training, this implementation will store regularly:
 * images of the model predictions on a batch of test samples
 
 ## Performance
-The performances below were obtained by doing only one run and taking the best test error during the traning. The original paper pre-select the best network on a 45k/5k train/test split which can explain the 
+The performances below were obtained by doing only one run and taking the best test error during traning. 
 
 | Name      | # layers | # params| Test err(paper) | Test err(this impl.)|
 |-----------|---------:|--------:|:---------------:|:---------------------:|
