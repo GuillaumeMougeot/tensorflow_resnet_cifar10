@@ -37,7 +37,7 @@ The performances below were obtained by doing only one run and taking the best t
 |ResNet44   |    44    | 0.66M   | 7.17%           | **7.31%**|
 |ResNet56   |    56    | 0.85M   | 6.97%           | **7.04%**|
 |ResNet110  |   110    |  1.7M   | 6.43%           | **N/A**|
-|ResNet120] |  1202    | 19.4M   | 7.93%           | **N/A**  |
+|ResNet120  |  1202    | 19.4M   | 7.93%           | **N/A**  |
 
 ## Acknowledgement
 This code is inspired by the two following repositories:
