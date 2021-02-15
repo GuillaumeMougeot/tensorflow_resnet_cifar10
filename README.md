@@ -28,7 +28,7 @@ During training, this implementation will store regularly:
 * images of the model predictions on a batch of test samples
 
 ## Performance
-The performances below were obtained by doing only one run and taking the best test error during traning. 
+The performances below were obtained by doing only one run on all the model and taking the best test error during traning. With model selection, the test errors should undoubtedly improved. 
 
 | Name      | # layers | # params| Test err(paper) | Test err(this impl.)|
 |-----------|---------:|--------:|:---------------:|:---------------------:|
@@ -36,7 +36,7 @@ The performances below were obtained by doing only one run and taking the best t
 |ResNet32   |    32    | 0.46M   | 7.51%           | **7.69%**|
 |ResNet44   |    44    | 0.66M   | 7.17%           | **7.31%**|
 |ResNet56   |    56    | 0.85M   | 6.97%           | **7.04%**|
-|ResNet110  |   110    |  1.7M   | 6.43%           | **N/A**|
+|ResNet110  |   110    |  1.7M   | 6.43%           | **6.75%**|
 |ResNet120  |  1202    | 19.4M   | 7.93%           | **N/A**  |
 
 ## Acknowledgement
